@@ -3,7 +3,7 @@
 
 int main() {
     try {
-        //Shape s({0,0,0}); // Empty tensor
+        //Shape s({0,0,0}); // Empty tensor raises error
         Shape s({2, 3, 4}); // 3D tensor
         Tensor t(s, Dtype::Float32);
 
